@@ -1,0 +1,15 @@
+Map<String, List<double>> countryGeocodes = {
+  "Toshkent": [41.3111, 69.2406],
+  "Samarqand": [39.6542, 66.9597],
+  "Farg'ona": [40.3842, 71.7843],
+  "Andijon": [40.7833, 72.3500],
+  "Namangan": [40.9983, 71.6726],
+  "Buxoro": [39.7670, 64.4230],
+  "Xorazm": [41.5500, 60.6333],
+  "Qashqadaryo": [38.8610, 65.7847],
+  "Surxondaryo": [37.2644, 67.2775],
+  "Navoiy": [40.0844, 65.3792],
+  "Jizzax": [40.1150, 67.8427],
+  "Sirdaryo": [40.5040, 68.6613],
+  "Qoraqalpog'iston": [42.4600, 59.6100],
+};
