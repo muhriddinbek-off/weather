@@ -1,12 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/svg.dart';
-import 'package:weather/data/models/weather/weather_forecast.dart';
-import 'package:weather/data/models/weather/weather_model.dart';
-import 'package:weather/utils/extension/extensions.dart';
-import 'package:weather/utils/icons/app_icons.dart';
-import 'package:weather/utils/size/size_utils.dart';
-import 'package:weather/utils/styles/app_styles.dart';
+
+import '../../../../../utils/export_link.dart';
 
 class WeekWeatherDataItem extends StatelessWidget {
   const WeekWeatherDataItem({

@@ -1,11 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:weather/bloc/weather_of_day/weather_of_day_bloc.dart';
-import 'package:weather/screens/not_connected/not_connected_widget.dart';
-import 'package:weather/screens/week_weather/widgets/week_successfuly_widget.dart';
-import 'package:weather/utils/colors/app_colors.dart';
-import 'package:weather/utils/size/size_utils.dart';
+import '../../utils/export_link.dart';
 
 class WeekWeatherScreen extends StatefulWidget {
   const WeekWeatherScreen({super.key});

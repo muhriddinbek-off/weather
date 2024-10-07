@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:weather/utils/colors/app_colors.dart';
+import '../export_link.dart';
 
 class AppStyles {
   static TextStyle bold64() => TextStyle(

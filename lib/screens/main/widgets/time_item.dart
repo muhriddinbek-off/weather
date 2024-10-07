@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:weather/utils/extension/extensions.dart';
-import 'package:weather/utils/styles/app_styles.dart';
+import 'package:weather/utils/export_link.dart';
 
 class TimeItem extends StatelessWidget {
   const TimeItem({

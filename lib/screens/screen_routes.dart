@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:page_transition/page_transition.dart';
-import 'package:weather/screens/daily_region_weather/daily_region_weather.dart';
-import 'package:weather/screens/main/main_screen.dart';
-import 'package:weather/screens/regions/regions_screen.dart';
-import 'package:weather/screens/splash/splash_screen.dart';
-import 'package:weather/screens/week_weather/week_weather_screen.dart';
+import '../utils/export_link.dart';
 
 class ScreenRoutes {
   static Route screenRoutes(RouteSettings settings) {

@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:weather/data/models/weather/weather_forecast.dart';
-import 'package:weather/screens/week_weather/widgets/sunset_and_sunrise.dart';
-import 'package:weather/screens/week_weather/widgets/weather_states_item.dart';
-import 'package:weather/utils/icons/app_icons.dart';
-import 'package:weather/utils/size/size_utils.dart';
+import '../../../../../utils/export_link.dart';
 
 class DailyWeatherInfomation extends StatelessWidget {
   const DailyWeatherInfomation({

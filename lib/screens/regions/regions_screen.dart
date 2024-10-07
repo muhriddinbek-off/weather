@@ -1,15 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:weather/data/repository/geocode/country_gecods.dart';
-import 'package:weather/data/storages/storages_repository.dart';
-import 'package:weather/screens/regions/widgets/regions_top_part.dart';
-import 'package:weather/screens/screen_routes.dart';
-import 'package:weather/utils/colors/app_colors.dart';
-import 'package:weather/utils/constants/app_constantas.dart';
-import 'package:weather/utils/size/size_utils.dart';
-import 'package:weather/utils/styles/app_styles.dart';
-import 'package:zoom_tap_animation/zoom_tap_animation.dart';
+
+import '../../utils/export_link.dart';
 
 class RegionsScreen extends StatelessWidget {
   const RegionsScreen({super.key});

@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:weather/data/models/weather/weather_model.dart';
-import 'package:weather/screens/week_weather/widgets/daily_weather_information.dart';
-import 'package:weather/screens/week_weather/widgets/week_top_item.dart';
-import 'package:weather/screens/week_weather/widgets/week_weather_item.dart';
-import 'package:weather/utils/colors/app_colors.dart';
+
+import '../../../../utils/export_link.dart';
 
 class WeekSuccessfulyWidget extends StatelessWidget {
   const WeekSuccessfulyWidget({

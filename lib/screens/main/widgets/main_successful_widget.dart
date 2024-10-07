@@ -1,15 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/svg.dart';
-import 'package:weather/data/models/weather/weather_model.dart';
-import 'package:weather/screens/main/widgets/time_of_day_widget.dart';
-import 'package:weather/screens/screen_routes.dart';
-import 'package:weather/utils/colors/app_colors.dart';
-import 'package:weather/utils/icons/app_icons.dart';
-import 'package:weather/utils/images/app_image.dart';
-import 'package:weather/utils/size/size_utils.dart';
-import 'package:weather/utils/styles/app_styles.dart';
-import 'package:zoom_tap_animation/zoom_tap_animation.dart';
+
+import '../../../utils/export_link.dart';
 
 class MainSuccessfullWidget extends StatelessWidget {
   const MainSuccessfullWidget({

@@ -1,8 +1,6 @@
-import 'package:weather/data/models/my_response/my_respons.dart';
 import 'package:http/http.dart' as http;
-import 'package:weather/data/repository/geocode/country_gecods.dart';
-import 'package:weather/data/storages/storages_repository.dart';
-import 'package:weather/utils/constants/app_constantas.dart';
+
+import '../../../utils/export_link.dart';
 
 class ApiProvider {
   static Future<MyRespons> getLocalWeatherData(String regionName) async {

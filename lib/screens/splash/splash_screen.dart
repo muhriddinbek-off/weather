@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:weather/screens/screen_routes.dart';
-import 'package:weather/utils/colors/app_colors.dart';
-import 'package:weather/utils/images/app_image.dart';
-import 'package:weather/utils/size/size_utils.dart';
-import 'package:weather/utils/styles/app_styles.dart';
+import '../../utils/export_link.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
